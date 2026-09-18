@@ -1,0 +1,26 @@
+START
+LOAD raw healthcare dataset
+SAVE raw dimensions and schema
+PROFILE types and unique values
+IDENTIFY nulls and placeholders
+CALCULATE missing count and percentage
+CHECK duplicate records
+
+FOR each numeric variable:
+    calculate quartiles and IQR
+    flag possible outliers
+    review flagged values
+
+FOR each categorical variable:
+    list values and frequencies
+    verify against documentation
+
+DEFINE and validate target
+SPLIT training and testing data
+BUILD preprocessing pipeline
+FIT transformations on training data only
+TRANSFORM test data
+RE-RUN quality checks
+COMPARE before/after metrics
+SAVE preprocessing specification
+END
