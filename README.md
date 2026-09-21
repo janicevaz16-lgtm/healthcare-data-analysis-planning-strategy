@@ -121,7 +121,29 @@ Key outputs include:
 - Confusion matrices
 - ROC curves
 - Classification metrics
-
+                 HEALTHCARE DATA ANALYTICS
+                           │
+                           ▼
+                  UCI Heart Disease
+                           │
+              ┌────────────┴────────────┐
+              ▼                         ▼
+        DATA ANALYSIS              DATA QUALITY
+              │                         │
+              ▼                         ▼
+       PREPROCESSING              GOVERNANCE
+              │
+              ▼
+       VISUALIZATION
+              │
+              ▼
+       MACHINE LEARNING
+              │
+              ▼
+       MODEL EVALUATION
+              │
+              ▼
+     STAKEHOLDER REPORTING
 ## Data Quality
 
 Data-quality controls include:
