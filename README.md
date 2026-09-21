@@ -1,5 +1,6 @@
 # Healthcare Data Analysis: Heart Disease Risk Analytics
 
+
 ## Project Overview
 
 
@@ -13,6 +14,39 @@ All dataset-derived statistics reported in this repository should be interpreted
 with reference to the exact preprocessing and target-mapping procedure used.
 Model performance is only reported when reproduced from the project's actual modelling pipeline.
 ---
+## My Analytical Contribution
+
+This project demonstrates an end-to-end healthcare analytics workflow in which I:
+
+- Defined the healthcare analytics problem and project objectives
+- Assessed dataset structure and analytical requirements
+- Designed data-cleaning and preprocessing procedures
+- Developed a healthcare visualization and reporting strategy
+- Planned and evaluated machine-learning classification approaches
+- Defined data-quality and validation controls
+- Incorporated healthcare privacy, ethics, and compliance considerations
+- Documented analytical decisions and limitations
+- Communicated the analytical lifecycle through a final stakeholder-style report
+  
+## Technical Skills Demonstrated
+
+**Programming:** Python, Pandas, NumPy, scikit-learn
+
+**Data Analytics:** Data cleaning, EDA, statistical summaries,
+feature analysis, classification
+
+**Visualization:** Matplotlib, Seaborn, Power BI, Excel
+
+**Machine Learning:** Logistic Regression, Decision Trees,
+Random Forest, model evaluation
+
+**Data Quality:** Missing-value analysis, validation,
+data integrity, leakage prevention, reproducibility
+
+**Healthcare Analytics:** Privacy, ethics, governance,
+compliance awareness, responsible reporting
+
+**Version Control:** Git, GitHub, repository organization
 
 ## Business / Analytical Problem
 
