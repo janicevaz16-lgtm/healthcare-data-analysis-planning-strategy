@@ -1,12 +1,16 @@
 # Healthcare Data Analysis: Heart Disease Risk Analytics
 
 ## Project Overview
+## Dataset
 
-This project demonstrates an end-to-end healthcare data analytics workflow using the UCI Heart Disease dataset, with a focus on the Cleveland dataset.
+This project uses the Cleveland subset of the UCI Heart Disease dataset.
 
-The project covers the complete analytical lifecycle from data-analysis planning and preprocessing through visualization, predictive analytics, data-quality assurance, compliance considerations, and final communication of findings.
+The UCI dataset contains 303 records and 13 commonly used analytical features. 
+The target is commonly transformed from the original 0–4 disease-status representation 
+into a binary classification outcome for analytical modelling.
 
-The objective is to demonstrate how healthcare data can be transformed into structured analytical evidence while maintaining reproducibility, responsible interpretation, and awareness of data-quality and ethical considerations.
+All dataset-derived statistics reported in this repository should be interpreted 
+with reference to the exact preprocessing and target-mapping procedure used.
 
 ---
 
