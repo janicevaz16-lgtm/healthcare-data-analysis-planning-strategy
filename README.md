@@ -92,23 +92,26 @@ The project follows an end-to-end healthcare analytics workflow:
 
 ---
 
-## Key Analytical Evidence
+## Analytical Evidence
 
-The commonly analysed Cleveland dataset contains:
+The notebooks generate dataset-specific descriptive statistics,
+data-quality checks, visualizations, and predictive-model evaluation
+metrics directly from the project dataset.
 
-| Metric | Value |
-|---|---:|
-| Total records | 303 |
-| No disease | 164 |
-| Disease | 139 |
-| No-disease proportion | 54.1% |
-| Disease proportion | 45.9% |
-| Male | 206 |
-| Female | 97 |
+This repository does not hard-code model performance or present
+secondary-source statistics as project-generated results.
 
-A published analysis of the Cleveland dataset reports six missing observations in the `ca` and `thal` variables. The exact missingness statistics for the final project dataset should be reproduced through the project's own QA pipeline.
+Key outputs include:
 
----
+- Dataset structure and descriptive statistics
+- Missing-value and duplicate analysis
+- Target distribution
+- Numerical feature distributions
+- Categorical feature analysis
+- Correlation analysis
+- Confusion matrices
+- ROC curves
+- Classification metrics
 
 ## Data Quality
 
@@ -278,32 +281,40 @@ Final Data Analysis Presentation and Reflection
 ## Repository Structure
 
 ```text
+
 healthcare-data-analysis-planning-strategy/
-│
+
 ├── README.md
+├── requirements.txt
+│
+├── data/
+│   ├── raw/
+│   │   └── README.md
+│   └── processed/
+│       └── README.md
 │
 ├── docs/
-│   ├── Week_1_...
-│   ├── Week_2_...
-│   ├── Week_3_...
-│   ├── Week_4_...
-│   ├── Week_5_...
-│   └── Week_6_...
+│   ├── Week 1 ...
+│   ├── Week 2 ...
+│   ├── Week 3 ...
+│   ├── Week 4 ...
+│   ├── Week 5 ...
+│   └── Week 6 ...
 │
 ├── figures/
-│   ├── week_2_...
-│   ├── week_3_...
-│   ├── week_4_...
-│   ├── week_5_...
-│   └── week_6_...
-│──src/    
-└── notebooks/
-Source
-
-UCI Machine Learning Repository
-
-Heart Disease Dataset
-
-DOI: 10.24432/C52P4X
-
-https://www.archive.ics.uci.edu/dataset/45/heart%2Bdisease
+│   ├── Week 2 ...
+│   ├── Week 3 ...
+│   ├── Week 4 ...
+│   ├── Week 5 ...
+│   └── Week 6 ...
+│
+├── notebooks/
+│   ├── 01_heart_disease_eda.ipynb
+│   └── 02_heart_disease_modeling.ipynb
+│
+└── src/
+    ├── __init__.py
+    ├── data_loader.py
+    ├── preprocessing.py
+    ├── modeling.py
+    └── metrics.py
