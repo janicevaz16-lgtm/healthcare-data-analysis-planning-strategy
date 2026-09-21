@@ -1,7 +1,7 @@
 # Healthcare Data Analysis: Heart Disease Risk Analytics
 
 ## Project Overview
-## Dataset
+
 
 This project uses the Cleveland subset of the UCI Heart Disease dataset.
 
@@ -11,7 +11,7 @@ into a binary classification outcome for analytical modelling.
 
 All dataset-derived statistics reported in this repository should be interpreted 
 with reference to the exact preprocessing and target-mapping procedure used.
-
+Model performance is only reported when reproduced from the project's actual modelling pipeline.
 ---
 
 ## Business / Analytical Problem
