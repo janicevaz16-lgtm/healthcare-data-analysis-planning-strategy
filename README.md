@@ -13,7 +13,6 @@ into a binary classification outcome for analytical modelling.
 All dataset-derived statistics reported in this repository should be interpreted 
 with reference to the exact preprocessing and target-mapping procedure used.
 Model performance is only reported when reproduced from the project's actual modelling pipeline.
----
 ## My Analytical Contribution
 
 This project demonstrates an end-to-end healthcare analytics workflow in which I:
@@ -27,6 +26,21 @@ This project demonstrates an end-to-end healthcare analytics workflow in which I
 - Incorporated healthcare privacy, ethics, and compliance considerations
 - Documented analytical decisions and limitations
 - Communicated the analytical lifecycle through a final stakeholder-style report
+---
+
+## Analytical Lifecycle
+
+This project demonstrates an end-to-end healthcare analytics workflow in which I:
+
+
+| Stage | Focus | Key Output |
+|---|---|---|
+| Week 1 | Planning | Analytical strategy and problem definition |
+| Week 2 | Preprocessing | Data-cleaning and validation methodology |
+| Week 3 | Visualization | Healthcare visualization and reporting strategy |
+| Week 4 | Predictive Analytics | Classification modelling strategy |
+| Week 5 | Data Quality | QA, governance, and compliance framework |
+| Week 6 | Final Analysis | Stakeholder presentation and reflection |
   
 ## Technical Skills Demonstrated
 
