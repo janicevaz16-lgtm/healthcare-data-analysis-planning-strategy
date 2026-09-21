@@ -1,5 +1,9 @@
-# Processed Data
+# Raw Data
 
-Store reproducibly generated datasets here when needed.
+Place the exact UCI Heart Disease Cleveland dataset used for this project here.
 
-Processed data should be derived from the documented raw source and preprocessing pipeline. Do not commit patient-identifying information.
+Expected filenames:
+- `processed.cleveland.data`
+- `heart.csv`
+
+Do not add patient-identifying information. Record the dataset source and version in the project documentation before reporting final results.
