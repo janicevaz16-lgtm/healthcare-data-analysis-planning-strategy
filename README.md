@@ -8,6 +8,15 @@ The project covers the complete analytical lifecycle from data-analysis planning
 
 The objective is to demonstrate how healthcare data can be transformed into structured analytical evidence while maintaining reproducibility, responsible interpretation, and awareness of data-quality and ethical considerations.
 Model performance is only reported when reproduced from the project's actual modelling pipeline.
+## Quick Navigation
+
+| Component | Description |
+|---|---|
+| `notebooks/` | Executable exploratory analysis and modelling |
+| `src/` | Reusable Python data and modelling functions |
+| `docs/` | Six-stage analytical documentation |
+| `figures/` | Workflows, diagrams, and dashboard mockups |
+| `data/` | Dataset documentation and local data structure |
 
 ## My Analytical Contribution
 
