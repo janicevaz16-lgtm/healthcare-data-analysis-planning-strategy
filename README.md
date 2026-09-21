@@ -1,102 +1,257 @@
-# Healthcare Data Analysis Planning and Strategy
+# Healthcare Data Analysis: Heart Disease Risk Analytics
 
-## 📌 Project Overview
+# Project Overview
 
-This repository contains the Week 1 strategic plan for a healthcare data analytics project focused on understanding and predicting 30-day hospital readmission among patients with diabetes.
+This project demonstrates an end-to-end healthcare data analytics workflow using the UCI Heart Disease dataset, with a focus on the Cleveland dataset.
 
-The project establishes a structured roadmap covering research background, objectives, data requirements, analytical methodology, measurable outcomes, project risks, tools, timeline, and evaluation criteria.
+The project covers the complete analytical lifecycle from data-analysis planning and preprocessing through visualization, predictive analytics, data-quality assurance, compliance considerations, and final communication of findings.
 
-## 🎯 Objective
+The objective is to demonstrate how healthcare data can be transformed into structured analytical evidence while maintaining reproducibility, responsible interpretation, and awareness of data-quality and ethical considerations.
 
-The primary objective is to develop a reproducible healthcare data-analysis strategy for identifying factors associated with hospital readmission within 30 days.
+---
 
-The plan considers:
+# Business / Analytical Problem
 
-- Healthcare background research
-- Dataset identification
-- Data-quality assessment
-- Exploratory data analysis
-- Feature preparation
-- Predictive modelling
-- Model evaluation
-- Risk management
-- Responsible healthcare analytics
+Healthcare organisations generate complex clinical datasets containing demographic, physiological, and diagnostic information.
 
-## 📊 Proposed Dataset
+The analytical challenge addressed in this project is:
 
-The planned analysis uses the:
+> How can patient-level clinical and demographic variables be analysed to identify patterns associated with heart-disease status while maintaining data quality, reproducibility, and responsible interpretation?
 
-**Diabetes 130-US Hospitals for Years 1999–2008 dataset**
+The project focuses on analytical decision support rather than clinical diagnosis.
 
-Key characteristics:
+---
 
-- 101,766 hospital encounters
-- 47 original features
-- 130 U.S. hospitals / integrated delivery networks
-- Data period: 1999–2008
+# Dataset
 
-The dataset contains demographic, admission, diagnosis, medication, procedure and healthcare-utilisation variables.
+**Source:** UCI Machine Learning Repository – Heart Disease
 
-## 🔬 Analytical Question
+**Dataset characteristics:**
 
-Can demographic, admission, medication, procedure and previous healthcare-utilisation information be used to identify hospital encounters associated with readmission within 30 days?
+- 303 patient records
+- 13 commonly used analytical features
+- Categorical, integer, and continuous variables
+- Historical Cleveland heart-disease data
+- Diagnosis target commonly transformed into a binary classification outcome
 
-## 📈 Measurable Analytical Objectives
+# Example variables
 
-The project will:
+- Age
+- Sex
+- Chest-pain type
+- Resting blood pressure
+- Cholesterol
+- Fasting blood sugar
+- Resting ECG
+- Maximum heart rate
+- Exercise-induced angina
+- ST depression
+- Slope
+- Number of major vessels
+- Thalassemia-related variable
 
-1. Assess the quality and completeness of the healthcare dataset.
-2. Identify important demographic, admission and healthcare-utilisation variables.
-3. Explore patterns associated with 30-day readmission.
-4. Develop classification models as a predictive prototype.
-5. Compare models using precision, recall, F1-score, ROC-AUC and PR-AUC.
-6. Examine the trade-off between false positives and false negatives.
-7. Document limitations, fairness considerations and requirements for future validation.
+---
 
-## 🧪 Example Hypotheses
+# Project Workflow
 
-### H1
-Higher prior inpatient utilisation may be associated with increased likelihood of 30-day readmission.
+The project follows an end-to-end healthcare analytics workflow:
 
-### H0
-Prior inpatient utilisation has no meaningful association with 30-day readmission.
+1. Data Analysis Planning
+2. Data Cleaning and Preprocessing
+3. Exploratory Data Analysis
+4. Data Visualization
+5. Predictive Analytics Planning
+6. Data Quality Assurance
+7. Compliance and Ethical Review
+8. Final Analysis and Reflection
 
-### H1
-Machine-learning classification models can provide useful discrimination between encounters with and without 30-day readmission.
+---
 
-### H0
-The proposed models do not provide useful discrimination beyond a baseline approach.
+# Key Analytical Evidence
 
-## 🛠️ Technologies
+The commonly analysed Cleveland dataset contains:
+
+| Metric | Value |
+|---|---:|
+| Total records | 303 |
+| No disease | 164 |
+| Disease | 139 |
+| No-disease proportion | 54.1% |
+| Disease proportion | 45.9% |
+| Male | 206 |
+| Female | 97 |
+
+A published analysis of the Cleveland dataset reports six missing observations in the `ca` and `thal` variables. The exact missingness statistics for the final project dataset should be reproduced through the project's own QA pipeline.
+
+---
+
+# Data Quality
+
+Data-quality controls include:
+
+- Missing-value analysis
+- Duplicate detection
+- Data-type validation
+- Numerical range checks
+- Categorical consistency checks
+- Target validation
+- Transformation tracking
+- Data provenance
+- Reproducibility checks
+- Data leakage prevention
+
+The project also includes a formal quality-assurance workflow and risk-management framework.
+
+---
+
+# Visualization
+
+The project uses visualization techniques appropriate to the variable type and analytical question.
+
+Examples include:
+
+- Target-distribution charts
+- Bar charts
+- Histograms
+- Box plots
+- Correlation heatmaps
+- Confusion matrices
+- ROC curves
+- Dashboard-style reporting
+
+Visualization decisions are justified according to audience, data type, readability, and analytical purpose.
+
+---
+
+# Predictive Analytics
+
+Potential classification approaches include:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+
+Evaluation metrics include:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Specificity
+- ROC-AUC
+- PR-AUC
+
+Model performance is only reported when reproduced from the project's actual modelling pipeline.
+
+---
+
+# Technical Skills Demonstrated
+
+### Programming & Analytics
 
 - Python
 - Pandas
 - NumPy
+- scikit-learn
+- Jupyter Notebook
+
+### Data Analysis
+
+- Data cleaning
+- Missing-value analysis
+- Exploratory data analysis
+- Statistical summaries
+- Feature analysis
+- Classification methodology
+
+# Visualization
+
 - Matplotlib
 - Seaborn
-- Scikit-learn
-- Jupyter Notebook / Google Colab
-- GitHub
+- Power BI
+- Excel
+- Dashboard design
 
-## 🔄 Project Framework
+# Data Governance
+
+- Data-quality assurance
+- Validation rules
+- Risk management
+- Compliance awareness
+- Reproducibility
+- Documentation
+
+# Version Control
+
+- Git
+- GitHub
+- Repository organization
+- Versioned documentation
+
+---
+
+# Healthcare Data Responsibility
+
+This project treats healthcare analytics as a high-responsibility analytical domain.
+
+The methodology considers:
+
+- Privacy
+- Data minimisation
+- Human oversight
+- Bias and representation
+- Transparency
+- Responsible visualization
+- Data security
+- Reproducibility
+- Avoidance of unsupported clinical claims
+
+The project is educational and analytical and should not be interpreted as a clinical diagnostic system.
+
+---
+
+# Project Deliverables
+
+# Week 1
+Data Analysis Planning and Strategy
+
+# Week 2
+Data Cleaning and Preprocessing Methodology
+
+# Week 3
+Data Visualization and Reporting
+
+# Week 4
+Predictive Analytics Strategy and Modeling Plan
+
+# Week 5
+Data Quality Assurance and Compliance Analysis
+
+# Week 6
+Final Data Analysis Presentation and Reflection
+
+---
+
+# Repository Structure
 
 ```text
-Research & Background
-        ↓
-Dataset Identification
-        ↓
-Data Quality Assessment
-        ↓
-Cleaning & Preprocessing
-        ↓
-Exploratory Data Analysis
-        ↓
-Feature Preparation
-        ↓
-Predictive Modelling
-        ↓
-Model Evaluation
-        ↓
-Interpretation
-        ↓
-Healthcare Recommendations
+healthcare-data-analysis-planning-strategy/
+│
+├── README.md
+│
+├── docs/
+│   ├── Week_1_...
+│   ├── Week_2_...
+│   ├── Week_3_...
+│   ├── Week_4_...
+│   ├── Week_5_...
+│   └── Week_6_...
+│
+├── figures/
+│   ├── week_2_...
+│   ├── week_3_...
+│   ├── week_4_...
+│   ├── week_5_...
+│   └── week_6_...
+│
+└── notebooks/
