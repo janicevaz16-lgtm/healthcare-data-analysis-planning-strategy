@@ -1,6 +1,6 @@
 # Healthcare Data Analysis: Heart Disease Risk Analytics
 
-# Project Overview
+## Project Overview
 
 This project demonstrates an end-to-end healthcare data analytics workflow using the UCI Heart Disease dataset, with a focus on the Cleveland dataset.
 
@@ -10,7 +10,7 @@ The objective is to demonstrate how healthcare data can be transformed into stru
 
 ---
 
-# Business / Analytical Problem
+## Business / Analytical Problem
 
 Healthcare organisations generate complex clinical datasets containing demographic, physiological, and diagnostic information.
 
@@ -22,7 +22,7 @@ The project focuses on analytical decision support rather than clinical diagnosi
 
 ---
 
-# Dataset
+## Dataset
 
 **Source:** UCI Machine Learning Repository – Heart Disease
 
@@ -34,7 +34,7 @@ The project focuses on analytical decision support rather than clinical diagnosi
 - Historical Cleveland heart-disease data
 - Diagnosis target commonly transformed into a binary classification outcome
 
-# Example variables
+### Example Variables
 
 - Age
 - Sex
@@ -52,7 +52,7 @@ The project focuses on analytical decision support rather than clinical diagnosi
 
 ---
 
-# Project Workflow
+## Project Workflow
 
 The project follows an end-to-end healthcare analytics workflow:
 
@@ -67,7 +67,7 @@ The project follows an end-to-end healthcare analytics workflow:
 
 ---
 
-# Key Analytical Evidence
+## Key Analytical Evidence
 
 The commonly analysed Cleveland dataset contains:
 
@@ -85,7 +85,7 @@ A published analysis of the Cleveland dataset reports six missing observations i
 
 ---
 
-# Data Quality
+## Data Quality
 
 Data-quality controls include:
 
@@ -104,7 +104,7 @@ The project also includes a formal quality-assurance workflow and risk-managemen
 
 ---
 
-# Visualization
+## Visualization
 
 The project uses visualization techniques appropriate to the variable type and analytical question.
 
@@ -123,7 +123,7 @@ Visualization decisions are justified according to audience, data type, readabil
 
 ---
 
-# Predictive Analytics
+## Predictive Analytics
 
 Potential classification approaches include:
 
@@ -145,7 +145,7 @@ Model performance is only reported when reproduced from the project's actual mod
 
 ---
 
-# Technical Skills Demonstrated
+## Technical Skills Demonstrated
 
 ### Programming & Analytics
 
@@ -164,7 +164,7 @@ Model performance is only reported when reproduced from the project's actual mod
 - Feature analysis
 - Classification methodology
 
-# Visualization
+## Visualization
 
 - Matplotlib
 - Seaborn
@@ -172,7 +172,7 @@ Model performance is only reported when reproduced from the project's actual mod
 - Excel
 - Dashboard design
 
-# Data Governance
+## Data Governance
 
 - Data-quality assurance
 - Validation rules
@@ -181,7 +181,7 @@ Model performance is only reported when reproduced from the project's actual mod
 - Reproducibility
 - Documentation
 
-# Version Control
+## Version Control
 
 - Git
 - GitHub
@@ -190,7 +190,7 @@ Model performance is only reported when reproduced from the project's actual mod
 
 ---
 
-# Healthcare Data Responsibility
+## Healthcare Data Responsibility
 
 This project treats healthcare analytics as a high-responsibility analytical domain.
 
@@ -210,7 +210,7 @@ The project is educational and analytical and should not be interpreted as a cli
 
 ---
 
-# Project Deliverables
+## Project Deliverables
 
 # Week 1
 Data Analysis Planning and Strategy
@@ -232,7 +232,7 @@ Final Data Analysis Presentation and Reflection
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 ```text
 healthcare-data-analysis-planning-strategy/
