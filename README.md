@@ -34,15 +34,18 @@ This project demonstrates an end-to-end healthcare analytics workflow in which I
 | Week 6 | Final Analysis | Stakeholder presentation and reflection |
 ## Dataset
 
-This project uses the Cleveland subset of the UCI Heart Disease dataset.
+**Source:** UCI Machine Learning Repository — Heart Disease
 
-The UCI dataset contains 303 records and 13 commonly used analytical features. 
-The target is commonly transformed from the original 0–4 disease-status representation 
-into a binary classification outcome for analytical modelling.
+The Cleveland dataset contains **303 records** and **13 commonly used analytical features**, including demographic, physiological, and diagnostic variables.
 
-All dataset-derived statistics reported in this repository should be interpreted 
-with reference to the exact preprocessing and target-mapping procedure used.
----
+The original target is represented on a 0–4 scale. For binary classification experiments in this project:
+
+- `0` → no disease
+- `1–4` → disease present
+
+Target counts and missing-value statistics are generated from the exact dataset used by the notebooks rather than being hard-coded as project results.
+
+**DOI:** 10.24432/C52P4X
 
 ## Business / Analytical Problem
 
@@ -55,18 +58,6 @@ The analytical challenge addressed in this project is:
 The project focuses on analytical decision support rather than clinical diagnosis.
 
 ---
-
-## Dataset
-
-**Source:** UCI Machine Learning Repository – Heart Disease
-
-**Dataset characteristics:**
-
-- 303 patient records
-- 13 commonly used analytical features
-- Categorical, integer, and continuous variables
-- Historical Cleveland heart-disease data
-- Diagnosis target commonly transformed into a binary classification outcome
 
 ### Example variables
 
